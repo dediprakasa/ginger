@@ -4,7 +4,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func SetupRouter(r *gin.Engine) *gin.Engine {
+func SetupRouter(r *gin.Engine) {
 	SetupUserRouter(r)
-	return r
 }
